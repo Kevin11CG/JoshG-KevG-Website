@@ -1,0 +1,11 @@
+body {
+    background:#2d323e url(images/compsci-symbol.png) no-repeat;
+}
+#content {
+    border:1px solid #ccc;
+    border-radius: .5em;
+    margin: 1em 15em 1em;
+    padding: 1em;
+    padding-top:0;
+    background:white;
+}
