@@ -1,11 +1,24 @@
 body {
     background:#2d323e url(images/compsci-symbol.png) no-repeat;
+    font-family:'Exo', sans-serif;
 }
 #content {
-    border:1px solid #ccc;
+    border:1px solid #00a683;
     border-radius: .5em;
     margin: 1em 15em 1em;
     padding: 1em;
-    padding-top:0;
     background:white;
+}
+#seal {
+    margin:.5em;
+    padding:none;
+    float:left;
+    height:100px;
+}
+.greet {
+    
+}
+.thumb {
+    margin-bottom: 0.25em;
+    border-bottom: 1em;
 }
