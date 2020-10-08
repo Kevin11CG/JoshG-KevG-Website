@@ -1,19 +1,43 @@
-body {
+.compsci {
     background:#2d323e url(images/compsci-symbol.png) no-repeat;
+}
+.javas {
+    background:#f8dc3d url(images/js-logo.jpg) no-repeat;
+}
+.exo {
     font-family:'Exo', sans-serif;
+}
+.indie {
+    font-family: 'Indie Flower', cursive;
+}
+.normallight {
+    color:#000;
+    background:white;
+}
+.xuladark {
+    color:#00a683;
+    background:#2d323e;
+}
+a {
+    text-decoration: none;
 }
 #content {
     border:1px solid #00a683;
     border-radius: .5em;
     margin: 1em 15em 1em;
     padding: 1em;
-    background:white;
 }
 #seal {
     margin:.5em;
     padding:none;
     float:left;
     height:100px;
+}
+.inputarea {
+    float: right;
+    clear: right;
+    padding: .2em;
+    margin: 1em;    
 }
 .greet {
     
@@ -22,7 +46,18 @@ body {
     margin-bottom: 0.25em;
     border-bottom: 1em;
 }
+h1, h2, h3 {
+    padding: .2em .2em;
+    margin: .5em .2em .2em;
+}
 h2 {
-    
     border-bottom: 1px solid #00a683;
+}
+p {
+    line-height: 1.5em;
+    padding: .2em;
+    margin: .5em;
+}
+ul {
+    margin: .5em 0em .5em;
 }

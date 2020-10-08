@@ -4,22 +4,36 @@
         <title>Home</title>
         <link rel='stylesheet' href='style.css' type='text/css'>
         <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
-        <body>
-            <div id='content'>
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+        <body id='body' class='exo compsci'>
+            <div id='content' class='normallight'>
                 <div id='seal'>
                     <img src='images/xula-seal.png' width=100 height=100 title='Click And Hold'>
                     
                 </div>
                 <h1 style='text-align:center'>Welcome to Software Development!</h1>
                 <br style='clear:both'>
-                <h2>First off, what is "software?"</h2>
-                <p>
-                    Think of software as instructions that tell your computer's hardware, its physical components, how to work. It comprises all programs, prodecures, and routines asociated with the operation its system.
-                </p>
+                <div class='inputarea'>
+                    <h3 style = 'text-align: center'>Enter your 900 number below:</h3>
+                    <input type="number" id="userNumber" value="Number">
+                    <button onclick="ninehundredInput()">Enter</button>
+                </div>
+                <br style='clear:both'>
+                <h2>What is "software?"</h2>
+                <p>Think of software as instructions that tell your computer's hardware, its physical components, how to work. It comprises all programs, prodecures, and routines asociated with the operation its system.</p>
+                <h2>What is "software development?"</h2>
+                <p>According to <a href='https://researcher.watson.ibm.com/researcher/view_group.php?id=5227'>IBM Research</a>: "Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software."</p>
+                <p>It comes into play when they take "raw" code, run it, test it, correct errors and further develop it. If humans could create flawless, error-free systems, then there would be no need for software development. The fact is that software programs are written by mistake-making humans and not machines.</p>
+                <h2>What do we learn in class?</h2>
+                <p>In this course, we learn how to create interactive websites, either individually or collaboratively. There three major languages to learn: HTML, CSS, and JavaScript.</p>
+                <ul>
+                    <li>HTML defines the content of webpages.</li>
+                    <li>CSS specifies the layout of webpages.</li>
+                    <li>JavaScript programs the behavior of webpages></li>
+                </ul>
+                <p>JavaScript allows the user to interact with the webpage in a variety of ways, like with the input box in the top right, or the seal in the top left. With just a click you can change the <span id='changefont' title='Click Me'><u>font</u></span>, <span id='changecolor' title='Click Me'><u>color</u></span>, or <span id='changebg' title='Click Me'><u>backround</u></span>.</p>
             </div>
-            <h3 style = 'text-align: left'>Enter your 900 number below:</h3>
-            <input type="number" id="userNumber" value="Number">
-            <button onclick="ninehundredInput()">Enter</button>
+            
             
             <script src='script.js'></script>
         </body>
