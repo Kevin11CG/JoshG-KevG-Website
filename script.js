@@ -9,6 +9,13 @@ document.getElementById('changebg').addEventListener('click', bgChange)
 function sealChange(){seal.innerHTML='<img src="images/XULA.png" width=100 height=100 title="Click Again"">'}
 function sealReset(){seal.innerHTML = '<img src="images/xula-seal.png" width=100 height=100 title="Click And Hold">'}
 function ninehundredInput(){var number = document.getElementById("userNumber").value; alert("Thank you for submitting! Your number: "+ number); console.log("Thank you for submitting! Your number: "+ number);}
+document.getElementById("secondEntr").addEventListener('click', displayLogin)
+function displayLogin(){
+    var fstname = document.getElementById("userFstName");
+    var lstname = document.getElementById("userLstName");
+    alert("Succesfully logged in as: "+fstname+" "+lstname+"("+number+")");
+    document.getElementById("h3").style.visibility = "visible";
+}
 function fontChange(){    
     var body = document.getElementById('body'); 
     if(body.classList.contains('exo'))
