@@ -14,7 +14,7 @@ function ninehundredInput(){
         return number;
     }
     else if(digit < 9 || digit > 9){
-        alert("Invalid input! Must have 9 digits."); 
+        alert("Invalid input! Number must have 9 digits."); 
     }
     else if(!nString.includes('900', 0)){
         alert("Invalid input! Number must start with 900.")
